@@ -41,10 +41,13 @@
     "REDIRECT_URLS": {
       "description": "Add here any other places that you trust this server to redirect to once authentication is done.",
       "value": "https://app.speckle.systems"
+    },
+    "MONGODB_URI": {
+      "description": "Full URI to connect to the mongodb server",
+      "value": "CHANGE-ME"
     }
   },
   "addons": [
-    "heroku-redis",
-    "mongolab"
+    "heroku-redis"
   ]
 }
