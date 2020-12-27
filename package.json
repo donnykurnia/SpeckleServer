@@ -11,6 +11,7 @@
     "postinstall": "npm install --prefix plugins/admin",
     "heroku-postbuild": "npm run build --prefix plugins/admin"
   },
+  "cacheDirectories": ["plugins/admin/node_modules"],
   "author": "Dimitrie Stefanescu & Project Contributors",
   "license": "MIT",
   "repository": {
