@@ -9,7 +9,7 @@
     "lint": "eslint . --fix",
     "test": "NODE_ENV=test nyc mocha --timeout 120000 --exit --recursive",
     "postinstall": "npm install --prefix plugins/admin",
-    "heroku-postbuild": "npm run build --prefix plugins/admin"
+    "heroku-postbuild": "cd plugins/admin && npm run build"
   },
   "cacheDirectories": ["plugins/admin/node_modules"],
   "author": "Dimitrie Stefanescu & Project Contributors",
