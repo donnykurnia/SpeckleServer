@@ -11,7 +11,7 @@
     "heroku-prebuild": "npm install --prefix plugins/admin",
     "heroku-postbuild": "cd plugins/admin && PATH=node_modules/.bin:$PATH npm run build"
   },
-  "cacheDirectories": ["plugins/admin/node_modules"],
+  "cacheDirectories": ["node_modules", "plugins/admin/node_modules"],
   "author": "Dimitrie Stefanescu & Project Contributors",
   "license": "MIT",
   "repository": {
